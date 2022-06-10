@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const {Telegraf} = require('telegraf')
+const Telegraf = require('telegraf')
 const {bot_token, port, id} = require('./config')
 
 app.use(require('helmet')())

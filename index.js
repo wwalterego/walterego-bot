@@ -27,5 +27,5 @@ app.get(`/${bot_token}`, async (req,res)=> {
 })
 
 app.listen(app.get('port'), () => {
-    console.log(`Server on port ${app.get('port')}`);
+    console.log(`Server running on port ${app.get('port')}`);
 })
